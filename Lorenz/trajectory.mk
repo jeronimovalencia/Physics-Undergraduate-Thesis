@@ -6,7 +6,6 @@ graficas.pdf graficas_3D.pdf : datosRK.dat plot.py
 
 datosRK.dat : datosRK.exe
 	./datosRK.exe 
-	rm datosRK.exe
 
 datosRK.exe : trajectory.cpp
-	g++ trajectory.cpp -o datosRK.exe
+	g++ -O3 trajectory.cpp -o datosRK.exe
