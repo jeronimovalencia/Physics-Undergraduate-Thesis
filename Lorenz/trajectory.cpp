@@ -45,7 +45,7 @@ int main()
 
 	double gam;
 	
-	cout << "Enter a value for gamma: "; 	
+	cout << "Enter a value for r: "; 	
 	cin >> gam;
 
 	temporalEvolution(t_min, t_max, N, inicial, gam);	

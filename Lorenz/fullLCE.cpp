@@ -69,7 +69,7 @@ int main()
 	double initial[3] = {x_0,y_0,z_0}; 
 	double gam = 0;
 	
-	cout << "Value for gamma: ";
+	cout << "Value for r: ";
 	cin >> gam;
 	
 	double* lambda_spectrum = new double[3];
